@@ -4,8 +4,7 @@ Spæl tetris [**her**](https://bergurijohansen.github.io/ludumtetris/)
 
 Link to [**Ludum Tetris**](https://bergurijohansen.github.io/ludumtetris/)
 
-![Ludum logo](extra/Niðurstøða.pdf)
-
+í extra liggur niðurstøðan
 
 ---
 
