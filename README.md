@@ -1,12 +1,6 @@
 ![Ludum logo](extra/logo_1.png)
 
-Link to [**Ludum Game Engine Demo**](https://bergurijohansen.github.io/LudumGameEngine/)
-
-### Games developed with Ludum Game Engine:
-
-Link to [**flappy bird**](https://bergurijohansen.github.io/LudumFlappy/)
-
-Link to [**dinosaur**](https://bergurijohansen.github.io/LudumDino/)
+Spæl tetris [**her**](https://bergurijohansen.github.io/ludumtetris/)
 
 ---
 

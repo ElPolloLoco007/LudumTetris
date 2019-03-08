@@ -6,7 +6,7 @@ import React from "react";
 import "../../style/Frame.css";
 import ImageRender from "../../gameEngine/components/ImageRender";
 import ResourceManager from "../../utils/ResourceManager";
-
+import { isNullOrUndefined } from "util";
 class Box {
   constructor(x, y, height, width) {
     this.entity = new Entity(
@@ -51,7 +51,22 @@ class Box {
   }
 
   // entity method
-  update() {
+  update(value) {
+    //if value is something else than null or undefined, it will be put into a switch
+    if (!isNullOrUndefined(value)) {
+      switch (value) {
+        case "a":
+          console.log("a");
+          this.entity.body.left -= 100;
+          break;
+        case "d":
+          console.log("d");
+          this.entity.body.left += 100;
+          break;
+        default:
+          break;
+      }
+    }
     // updating this.entity
     this.entity.update();
   }
