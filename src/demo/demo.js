@@ -12,7 +12,7 @@ class Demo extends Component {
     super(props);
     var playerArr;
     playerArr = [
-      new Box(640 / 2, 2, 100, 100),
+      new Box(302, 2, 100, 100),
       new HorizontalWall(0, 1024, -1, 640),
       new HorizontalWall(0, 0, 1, 640),
       new VerticalWall(640, 0, 1024, -1),
@@ -46,10 +46,7 @@ class Demo extends Component {
     let then = this.state.then;
     let interval = this.state.interval;
     let delta = this.state.delta;
-    // let noise = new AudioManager(
-    //   ResourceMangaer.getAudioPath("backgroundnoise.mp3")
-    // );
-    // noise.play(0);
+
     delta = now - then;
 
     // restricting fps
@@ -94,7 +91,7 @@ class Demo extends Component {
           //   placeholder[this.state.activeBrick].getPhysics().setTop(0);
           // }
 
-          let newBrick = new Box(40 + Math.random() * 550, 3, 100, 100);
+          let newBrick = new Box(2 + 100 * backgroundIndex, 3, 100, 100);
           let idx =
             this.state.activeBrick === 0 ? 5 : this.state.activeBrick + 1;
 
@@ -102,6 +99,7 @@ class Demo extends Component {
             playerArr: [...prevState.playerArr, newBrick],
             activeBrick: idx
           }));
+          index = this.state.playerArr.length + 3;
         }
       }
       // updating every player
