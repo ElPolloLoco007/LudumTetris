@@ -2,6 +2,9 @@
 
 Spæl tetris [**her**](https://bergurijohansen.github.io/ludumtetris/)
 
+Link to [**Ludum Tetris**](https://bergurijohansen.github.io/ludumtetris/)
+
+
 ---
 
 ### Ludum **ad infinitum**
