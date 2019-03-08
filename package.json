@@ -1,7 +1,7 @@
 {
   "name": "fv-react-engine",
   "version": "0.1.0",
-  "homepage": "https://bergurijohansen.github.io/LudumGameEngine",
+  "homepage": "https://bergurijohansen.github.io/ludumtetris",
   "description": "React boilerplate that is used with the Software Engineering Course at the Faroe Islands University, a React Game Engine Boilerplate.",
   "main": "index.js",
   "scripts": {

@@ -13,9 +13,9 @@ class Demo extends Component {
     var playerArr;
     playerArr = [
       new Box(302, 2, 100, 100),
-      new HorizontalWall(0, 1024, -1, 640),
-      new HorizontalWall(0, 0, 1, 640),
-      new VerticalWall(640, 0, 1024, -1),
+      new HorizontalWall(0, 1024, -1, 603),
+      new HorizontalWall(0, 0, 1, 603),
+      new VerticalWall(603, 0, 1024, -1),
       new VerticalWall(0, 0, 1024, 1)
     ];
     let backgroundArr = [
@@ -64,7 +64,6 @@ class Demo extends Component {
         }
 
         if (this.state.activeBrick === 0 && player.entity.body.top === 2) {
-          console.log("sadffdsfdsfdsfds");
           let hey = new AudioManager(
             ResourceMangaer.getAudioPath("backgroundnoise.mp3")
           );
@@ -79,6 +78,7 @@ class Demo extends Component {
         // if a collision is detected, checkForCollision() returns true
         if (hasPlayerCollided === true) {
           let backgroundIndex = Math.floor(0 + Math.random() * 5);
+          let brickIndex = Math.floor(0 + Math.random() * 6);
           let name = this.state.backgroundArr[backgroundIndex];
           let placeholder = this.state.playerArr;
 
@@ -91,7 +91,7 @@ class Demo extends Component {
           //   placeholder[this.state.activeBrick].getPhysics().setTop(0);
           // }
 
-          let newBrick = new Box(2 + 100 * backgroundIndex, 3, 100, 100);
+          let newBrick = new Box(2 + 100 * brickIndex, 3, 100, 100);
           let idx =
             this.state.activeBrick === 0 ? 5 : this.state.activeBrick + 1;
 
@@ -121,7 +121,7 @@ class Demo extends Component {
     var scalability = {
       backgroundImage: `url(${this.state.background})`,
       position: "absolute",
-      width: 640,
+      width: 603,
       height: 1024,
       overflow: "hidden"
     };
