@@ -8,6 +8,9 @@ Link to [**flappy bird**](https://bergurijohansen.github.io/LudumFlappy/)
 
 Link to [**dinosaur**](https://bergurijohansen.github.io/LudumDino/)
 
+Link to [**Ludum Tetris**](https://bergurijohansen.github.io/ludumtetris/)
+
+
 ---
 
 ### Ludum **ad infinitum**
