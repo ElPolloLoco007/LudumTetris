@@ -4,7 +4,9 @@ Spæl tetris [**her**](https://bergurijohansen.github.io/ludumtetris/)
 
 Link to [**Ludum Tetris**](https://bergurijohansen.github.io/ludumtetris/)
 
-í extra liggur niðurstøðan
+í extra liggur niðurstøðan sum ein pdf fílur sum inniheldur:
+
+Loysnir uppfyllir endamál og tilgongdin stýrd væl(váðastýring=
 
 ---
 
