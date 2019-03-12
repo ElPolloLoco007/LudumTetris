@@ -1,9 +1,16 @@
 ![Ludum logo](extra/code_coverage.png)
 
-Spæl tetris [**her**](https://bergurijohansen.github.io/ludumtetris/)
+Link to [**Ludum Game Engine Demo**](https://ElPolloLoco007.github.io/LudumGameEngine/)
 
-Link to [**Ludum Tetris**](https://bergurijohansen.github.io/ludumtetris/)
+### Games developed with Ludum Game Engine:
 
+Link to [**flappy bird**](https://ElPolloLoco007.github.io/LudumFlappy/)
+
+Link to [**dinosaur**](https://ElPolloLoco007.github.io/LudumDino/)
+
+Link to [**tetris**](https://ElPolloLoco007.github.io/LudumTetris/) (developed in a 5 hour competition - !not finished!)
+
+---
 í extra liggur niðurstøðan sum ein pdf fílur sum inniheldur:
 
 Loysnir uppfyllir endamál og tilgongdin stýrd væl(váðastýring=
